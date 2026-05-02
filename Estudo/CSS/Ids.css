@@ -1,0 +1,12 @@
+div{
+    padding: 10px;
+    background-color: chocolate;
+}
+.tableData{
+    padding: 20px;
+    background-color: rgb(255, 94, 0);
+}
+#table{
+    background-color: rgb(255, 150, 90);
+    padding: 15px;
+}

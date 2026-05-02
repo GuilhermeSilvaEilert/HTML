@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Ordem do CSS</title>
+        <style>
+            h2{
+                color:blue
+            }
+            h3{
+                color:blue
+            }
+            p{
+                color:blue
+            }
+        </style>
+        <link rel="stylesheet" href="CSS/Ordem_CSS.css"/>
+    </head>
+    <body>
+        <h1>Hirarquia do CSS</h1>
+        <h2 style="color: red;">Inline</h2>
+        <ol>
+            <li>inline</li>
+            <li>internal e external</li>
+            <li>padrão do navegador</li>
+        </ol>
+        <h3> CSS internal vindo antes do link do external</h3>
+        <p>Apenas o internal contendo o valor</p>
+        <table>
+            <tr>
+                <th>Ordem de leitura</th>
+                <th>Tipo</th>
+                <td>Obs</td>
+            </tr>
+            <tr>
+                <td>Primeiro</td>
+                <td>Inline</td>
+                <td>Tem prioridade sob o <br> internal e o  external</td>
+            </tr>
+            <tr>
+                <td>Segundo</td>
+                <td>Internal ou External</td>
+                <td>Depende de quem está <br/> declarado primeiro <br/> no head </td>
+            </tr>
+            <tr>
+                <td>Terceiro</td>
+                <td>Padrão do navegador</td>
+                <td>É o que a configuração <br/> default do navegador <br/> que define como padrão no css</td>
+            </tr>
+        </table>
+    </body>
+</html>

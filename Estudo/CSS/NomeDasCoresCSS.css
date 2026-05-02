@@ -1,0 +1,12 @@
+h3{
+    background-color: black;
+    color: blueviolet;
+}
+#paragrafo{
+    background-color: darkgrey;
+    color: darkmagenta;
+}
+.th-td{
+    background-color: darkred;
+    font-weight: bold;
+}

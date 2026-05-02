@@ -1,0 +1,12 @@
+/*Controla a div*/
+div{
+    color: aquamarine;
+    background-color: black;
+    font-size: 15px;
+}
+/*Control o h3*/
+h3{
+    color: blueviolet;
+    background-color: cadetblue;
+    font-size: 20px;
+}

@@ -1,0 +1,24 @@
+h5{
+    color:red !important;
+    font-size: 18px;
+}
+h6{
+    color:red;
+    font-size: 18px;
+}
+p{
+    color: red;
+    font-size: 18px;
+}
+li{
+    color: red;
+    font-size: 18px;
+}
+.fontMod{
+    color: blueviolet;
+    font-size: 18px;
+}
+#fontMod{
+    color: darkgreen;
+    font-size: 18px;
+}

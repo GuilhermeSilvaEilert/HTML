@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Ordem dos Seletores</title>
+        <style>
+            h1{
+                color: red;
+            }
+            .hP{
+                color:blueviolet;
+            }
+            #hP{
+                color:darkgreen
+            }
+            h2{
+                color: red;
+            }
+            h3{
+                color: red;
+            }
+            h4{
+                color:red;
+            }
+        </style>
+        <link rel="stylesheet" href="CSS/OrdemDosSeletoresCSS.css"/>
+    </head>
+    <body>
+        <h1 style="color: blue" class="hP" id="hP">
+            Id, class,seletor de tag e style, internal</h1>
+        <h2 class="hP" id="hP">seletor de tag, class e Id, internal</h2>
+        <h3 class="hP">Seletor de tag e class, internal</h3>
+        <h4>Seletor de tag, internal</h4>
+        <hr/>
+        <h5 style="color: blue; font-size: 18px;" id="fontMod" class="fontMod">
+            Id, class, seletor de tag e style, external</h5>
+        <h6 id="fontMod" class="fontMod">Seletor de tag, class e Id, external</h6>
+        <p class="fontMod">Seletor de tag e class, external</p>
+        <ol>
+            <li>Seletor de tag, external</li>
+        </ol>
+    </body>
+</html>
