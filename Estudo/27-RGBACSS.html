@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>RGBA CSS</title>
+        <style>
+            body{
+                background-color: rgba(0, 53, 0, 0.8);
+            }
+            #title2{
+                background-color: rgba(0, 200, 0, 0.5);
+                color: rgba(0, 53, 0, 0.9);
+            }
+            .listItem{
+                background-color: rgba(0, 235, 50, 0.5);
+                color:rgba(0, 50, 0, 1);
+            }
+            ol{
+                background-color: rgba(50, 150, 50, 0.5);
+            }
+        </style>
+        <link rel="stylesheet" href="CSS/RGBACSS.css"/>
+    </head>
+    <body>
+        <h1 style="background-color: rgba(0,255,100,0.5); color: rgba(0, 0, 0, 0.7)">Ficha de RPG</h1>
+        <h2 id="title2">Lista de personagens</h2>
+        <ol>
+            <li class="listItem">Hobbit</li>
+            <li class="listItem">Elfo</li>
+            <li class="listItem">Anão</li>
+            <li class="listItem">Orc</li>
+            <li class="listItem">Fada</li>
+            <li class="listItem">Humano</li>
+        </ol>
+        <div>
+            <h3>Hobbit</h3>
+            <p>São pequenos e gostam do seu sossego, tendem a evitar o perigo</p>
+            
+            <table id="table">
+                <tr>
+                    <th class="tableHead">Atributo</th>
+                    <th class="tableHead">Conteúdo</th>
+                </tr>
+                <tr>
+                    <td class="tableData2">Foto</td>
+                    <td class="tableData1"><img src="img/RPG/Hobbit.webp" alt="Hobbit"/></td>
+                </tr>
+                <tr>
+                    <td class="tableData1">Vida</td>
+                    <td class="tableData2">150</td>
+                </tr>    
+                <tr>
+                    <td class="tableData2">Força</td>
+                    <td class="tableData1">25</td>
+                </tr>
+                <tr>
+                    <td class="tableData1">Constituição</td>
+                    <td class="tableData2">150</td>
+                </tr>
+                <tr>
+                    <td class="tableData2">Carisma</td>
+                    <td class="tableData1">100</td>   
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
