@@ -1,0 +1,23 @@
+.titles{
+    background-color: rgb(0, 72, 105, 0.8);
+}
+th{
+    background-color: #004869;
+}
+
+tr{
+    background-color: #004869;
+}
+
+#tableData2{
+    background-color: rgba(0, 72, 105, 0.2);
+}
+#tableData4{
+    background-color: rgb(0, 72, 105, 0.4);
+}
+#tableData6{
+    background-color: rgb(0, 72, 105, 0.6);
+}
+#tableData8{
+    background-color: rgb(0, 72, 105, 0.8);
+}

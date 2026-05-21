@@ -1,0 +1,30 @@
+.title{
+    background-color: #000000;
+    color: #8d5cff;
+    padding: 10px;
+}
+#divList{
+    background-color: #000000;
+    color:#8d5cff;
+    padding-left: 10px;
+}
+#paragrafo{
+    background-color: #000000;
+    color:#8d5cff;
+    padding-bottom: 10px;
+}
+#divtable{
+    background-color: #000000;
+    color: #8d5cff;
+    padding: 10px;
+    width: 275px;
+}
+table{
+    border: 1px;
+    border-style: solid;
+}
+tr, td, th{
+    border: 1px;
+    border-style: solid;
+    color: #8d5cff;
+}

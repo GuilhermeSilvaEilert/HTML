@@ -1,0 +1,41 @@
+.imagens{
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+}
+
+#ol{
+    background-color: darkviolet;
+    width: 100px;
+    height: 190px;
+    padding-top:10px
+}
+#lista{
+    background-color: blue;
+    height: 230px;
+    width: 150px;
+    padding-top: 1px;
+    padding-left: 15px
+}
+
+#h3{
+    background-color: darkorchid;
+    height: 30px;
+    padding-top: 9px;
+    width: 250px;
+    font-weight: bold;
+}
+p{
+    background-color: #e42ff5;
+    width: 180px;
+}
+table{
+    background-color: #000000;
+    border-color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+}
+tr, td, th{
+    background-color: #e42ff5;
+    border: 1px solid black;
+}

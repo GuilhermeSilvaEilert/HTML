@@ -1,0 +1,42 @@
+#table{
+    border: 1px;
+    border-style: solid;
+    background-color: #000;
+}
+.td1{
+    border: 1px;
+    border-style: solid;
+    background-color: #dbd800;
+    padding: 10px 20px;
+}
+
+.td2{
+    border: 1px;
+    border-style: solid;
+    background-color: #ad9300;
+    padding: 10px 20px;
+}
+
+th{
+    border: 1px;
+    border-style: solid;
+    background-color: #fffd87;
+    padding: 10px 20px;
+}
+#body{
+    background-color: #bdba00;
+}
+.titles{
+    background-color: #ffe81a;
+    padding: 10px 15px 20px 25px;
+    width: 340px;
+}
+ol{
+    background-color: #ffe81a;
+    padding-left: 50px;
+    width: 250px;
+}
+li{
+    background-color: #e6ff04;
+    padding: 10px;
+}
